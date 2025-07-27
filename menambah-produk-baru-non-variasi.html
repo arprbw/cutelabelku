@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Cutelabelku - Dokumentasi</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap Knowledge Base and Help Centre Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark-reasonable.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/devdesk.css">
+
+</head> 
+
+<body>    
+	<div class="page-header-wrapper">
+		<div class="page-header-bg-pattern-holder">
+			<div class="bg-pattern-top"></div>
+			<div class="bg-pattern-bottom"></div>
+		</div><!--//page-header-bg-pattern-holder-->
+		
+	    <header class="header">	    			
+			<div class="container">
+				<nav class="navbar navbar-expand-lg" >
+					<div class="site-logo me-3">
+						<a class="navbar-brand" href="index.html">
+							<img class="logo-icon" src="assets/images/site-logo.svg" alt="logo">     
+						</a>
+					</div><!--//site-logo-->
+
+
+					<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				        <span> </span>
+						<span> </span>
+						<span> </span>
+				    </button>
+					
+					<div class="collapse navbar-collapse ms-auto" id="navigation">
+	
+						<ul class="navbar-nav ms-auto align-items-lg-center">
+							<li class="nav-item me-lg-4">
+								<a class="nav-link" href="index.html">Beranda</a>
+							</li>
+							<li class="nav-item dropdown me-lg-4">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Topik</a>
+								<ul class="dropdown-menu dropdown-menu-lg-end rounded shadow"> 
+									<li><a class="dropdown-item" href="pengantar.html">Pengantar</a></li>
+									<li><a class="dropdown-item" href="login-dashboard-alt.html">Login & Dashboard</a></li>
+									<li><a class="dropdown-item" href="manajemen-produk-alt.html">Manajemen Produk</a></li>
+									<li><a class="dropdown-item" href="manajemen-pesanan-alt.html">Manajemen Pesanan</a></li>
+									<li><a class="dropdown-item" href="manajemen-pelanggan-alt.html">Manajemen Pelanggan</a></li>
+									<li><a class="dropdown-item" href="manajemen-kupon-alt.html">Manajemen Kupon</a></li>
+									<li><a class="dropdown-item" href="laporan-analisis-alt.html">Laporan & Analisis</a></li>
+									<li><a class="dropdown-item" href="pengaturan-dasar-alt.html">Pengaturan Dasar Toko</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-btn btn btn-primary text-white" href="https://cutelabelku.com">Got to Website</a>
+							</li>
+
+						</ul><!--//navbar-nav-->
+					</div>
+				</nav>
+			</div><!--//container-->
+			
+		</header><!--//header-->		
+		
+		<div class="page-heading-holder">
+			<div class="container text-center">
+
+			    <div class="page-heading-sub single-col-max mx-auto">
+	
+				    <div class="help-search-main d-block mx-auto">
+		                 <form class="search-form w-100">
+				            <input type="text" placeholder="Cari di sini..." name="search" class="form-control search-input">
+				            <button type="submit" class="btn search-btn" value="Search">
+				                <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search" transform="translate(-1.000000, 0.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M11.7297644,1.56712981 C9.1503137,-0.644294379 5.30290309,-0.496046815 2.90126795,1.90730746 C0.499632815,4.31066174 0.354138355,8.15817744 2.56740774,10.7360451 C4.78067712,13.3139128 8.60590394,13.7523024 11.345,11.742 L11.344,11.742 C11.3733333,11.782 11.406,11.8203333 11.442,11.857 L15.292,15.707 C15.6824653,16.0977414 16.3157585,16.0979653 16.7065,15.7075 C17.0972414,15.3170347 17.0974653,14.6837415 16.707,14.293 L12.857,10.443 C12.8212661,10.40679 12.7828212,10.3733596 12.742,10.343 C14.7503419,7.60346614 14.3092152,3.778554 11.7297644,1.56712981 Z M9.75000002,10.3971144 C8.35769516,11.200962 6.64230484,11.200962 5.24999998,10.3971144 C3.85769513,9.5932668 2.99999998,8.10769519 3,6.50000001 C3.00000004,4.01471867 5.01471865,2.00000008 7.5,2.00000008 C9.98528135,2.00000008 12,4.01471867 12,6.50000001 C12,8.10769519 11.1423049,9.5932668 9.75000002,10.3971144 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
+				            </button>
+				        </form>
+		            </div><!--//help-search-main-->
+                </div>    
+			</div>
+		</div><!--//page-heading-holder-->
+	</div><!--//page-header-wrapper-->
+	
+	<div class="help-breadcrumb-container pt-4">
+		<div class="container">
+			<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+			    <ol class="breadcrumb">
+				    <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+				    <li class="breadcrumb-item"><a href="manajemen-produk-alt.html">Manajemen Produk</a></li>
+				    <li class="breadcrumb-item active" aria-current="page">Menambah Produk Baru Tanpa Variasi</li>
+			    </ol>
+			</nav>
+		</div><!--//container-->
+	</div><!--//help-breadcrumb-container-->
+	
+	<div class="help-content-wrapper theme-section pt-4">		
+		<div class="container">
+			<div class="row">
+	            <div class="col-lg-8 col-xl-9">
+		            <section class="main-section order-lg-last">
+			           <article class="help-article mb-5">
+				            <header class="article-header mb-5">
+					            <h1 class="heading-level-1 text-center mb-2">Menambah Produk Baru Tanpa Variasi</h1>
+					            <div class="article-meta mx-auto d-flex justify-content-center align-items-center">
+						            <img class="meta-profile-image me-3" src="assets/images/help/author-profile.png" alt="image">
+						            <div class="meta-info-wrapper">
+							            <div class="meta-author">Ditulis oleh: Arie Prabowo</div>
+							            <div class="meta-time">Tanggal Update: 14 Juli 2025</div>
+						            </div>
+						        </div><!--//article-meta-->
+				            </header>
+				           										            
+						    <p>Berikut data yang akan digunakan sebagai contoh untuk produk tanpa variasi.</p>
+							<table class="table table-striped my-5">
+								<thead>
+									<tr>										
+										<th scope="col">Nama Produk</th>
+										<th scope="col">SKU</th>
+										<th scope="col">Harga Normal</th>
+										<th scope="col">Deskripsi Singkat</th>
+										<th scope="col">Kategori</th>
+										<th scope="col">Berat</th>
+										<th scope="col">Info Kustomisasi</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>																				
+										<td>Label Book Cutting - Tema Cinnamoroll</td>
+										<td>LBC - CINNAMOROL</td>
+										<td>50000</td>
+										<td>Stiker nama anak anti air bahan vinyl premium. Ukuran 8x3 cm dengan isi 6 gambar berbeda 1 set isi 40 pcs.</td>
+										<td>Stiker Anak</td>
+										<td>25</td>
+										<td>Teks yang dibutuhkan : Nama Anak. Untuk Class dan Subject Optional.</td>										
+									</tr>
+									
+								</tbody>
+							</table><!--//table-->
+							
+							<p>Langkah-langkahnya adalah sebagai berikut:</p>				           
+							<ol class="article-list-custom">
+					           <li>Pilih menu <strong>Produk</strong> - <strong>Tambah Produk Baru</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/07-tambah-produk-baru.png" alt="">
+					                		<figcaption class="figure-caption text-center">Menu Tambah Produk Baru</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+							   <li>Masukkan <strong>Nama Produk</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/42-input-nama-produk-baru-non-variabel.png" alt="">
+					                		<figcaption class="figure-caption text-center">Input Judul Produk Baru</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+					           <li>Di bagian <strong>Deskripsi Produk</strong>, ketikan sebagai berikut: </li>
+								<pre>
+							    	<code>
+Cara Pemesanan:
+	1. Pilih ukuran
+	2. Cantumkan data berikut di Catatan saat pemesanan: Nama Anak (Class, Subject Optional)
+									</code>
+						    	</pre>
+							  		<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/43-input-deskripsi-produk-baru-non-variasi.png" alt="">
+					                		<figcaption class="figure-caption text-center">Masukkan Deskripsi Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Selanjutnya scroll ke bawah di bagian <strong>Data Produk</strong>, pilih tipe <strong>Produk sederhana</strong>, dan masukkan <strong>Harga normal</strong> 50000.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/44-data-produk-sederhana-dan-harga.png" alt="">
+					                		<figcaption class="figure-caption text-center">Pemilihan Tipe Produk Sederhana dan Input Harga Normal</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Di bagian <strong>Inventaris</strong>, masukkan <strong>SKU</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/44-input-sku-produk.png" alt="">
+					                		<figcaption class="figure-caption text-center">Input SKU Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+							   <li>Untuk bagian <strong>Marketplace</strong>, masukkan link produk jika Anda juga menjual produknya di marketplace. Link sesuai dengan marketplacenya.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/45-link-marketplace-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Link Produk di Marketplace</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Jika Anda menjual produknya selain dari marketplace di atas, Anda bisa masukkan di bagian <strong>External Link</strong> ini. Pada <strong>Label Button</strong> Anda bisa custom nama tombolnya dan masukkan link produknya pada bagian <strong>Link</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/46-link-external-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">External Link</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Di bagian <strong>Pengiriman</strong>, masukkan berat dan dimensi dari paket produk yang akan dikirimkan. Di sini masukkan batas toleransi sebesar 1 Kg.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/47-pengiriman-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Pengiriman</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Di bagian <strong>Atribut</strong> biarkan saja, dan ke bagian selanjutnya <strong>Pengaturan Lanjutan</strong>, di sini Anda bisa memberikan <strong>Catatan Pembelian</strong> dimana akan terkirimkan ke pelanggan setelah pembelian, merubah <strong>Urutan menu</strong> (optional), dan beri tanda <strong>Aktifkan ulasan</strong> jika produk Anda ingin diberi ulasan oleh pembeli.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/48-pengaturan-lanjutan-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Pengaturan Lanjutan</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->								
+								<li>Kemudian scroll ke bawah ke bagian <strong>Deskripsi Singkat Produk</strong>. Copy data yang ada di file Excel baik dengan cara menekan tombol <strong>Ctrl+C</strong> pada keyboard, atau dengan mengklik <strong>kanan mouse</strong> - pilih <strong>Copy</strong>. Di sini yang perlu diperhatikan, saat <strong>Paste</strong> harus menekan tombol <strong>Ctrl+Shift+V</strong> pada keyboard agar format tabelnya tidak ikut. Perbedaannya bisa dilihat pada gambar di bawah.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/49-copas-salah-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Paste Yang Salah</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/50-copas-benar-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Paste Yang Benar</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Selanjutnya masukkan <strong>Gambar produk</strong> yang menunya ada di sebelah kanan. Klik <strong>Atur gambar produk</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/51-gambar-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Bagian Untuk Memasukkan Gambar Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Jika gambar produknya belum terupload, klik tab <strong>Unggah berkas</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/52-tab-unggah-berkas-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Tab Unggah Berkas</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Klik <strong>Pilih Berkas</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/29-pilih-berkas.png" alt="">
+					                		<figcaption class="figure-caption text-center">Pilih Berkas</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Pilih file gambar produknya, kemudian klik <strong>Open</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/53-pilih-file-gambar-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Pilih File Gambar Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Pastikan gambar yang terupload sudah tercentang, lalu klik tombol <strong>Atur gambar produk</strong> di kanan bawah.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/54-upload-gambar-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Unggah Gambar Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/55-gambar-produk-sederhana-terpilih.png" alt="">
+					                		<figcaption class="figure-caption text-center">Gambar Produk Yang Dipilih</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Jika produk tersebut memiliki lebih dari 1 gambar, Anda bisa jadikan gambar tersebut sebagai galeri produk. Di bagian <strong>Galeri Produk</strong>, klik <strong>Tambahkan gambar galeri produk</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/56-galeri-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Galeri Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Klik tab <strong>Unggah berkas</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/57-tab-unggah-berkas-galeri-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Tab Unggah Berkas Ke Galeri Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Klik <strong>Pilih Berkas</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/35-pilih-berkas-gambar-galeri-produk.png" alt="">
+					                		<figcaption class="figure-caption text-center">Pilih Berkas Gambar Ke Galeri Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Pilih file gambar untuk galeri produknya, kemudian klik <strong>Open</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/36-pilih-gambar-galeri-produk.png" alt="">
+					                		<figcaption class="figure-caption text-center">Pilih File Gambar Untuk Galeri Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Pilih gambar-gambar yang ingin Anda masukkan sebagai galeri produk hingga tercentang seperti pada gambar di bawah. Lalu klik tombol <strong>Tambahkan ke galeri</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/58-unggah-gambar-ke-galeri-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Pilih File Gambar Untuk Galeri Produk</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/59-gambar-ke-galeri-produk-sederhana-terpilih.png" alt="">
+					                		<figcaption class="figure-caption text-center">Gambar Galeri Produk Yang Dipilih</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Karena tag <strong>Stiker Anak</strong> sudah ditambahkan sebelumnya, maka di sini klik saja <strong>Pilih dari tag yang paling sering digunakan</strong> dan akan muncul tag-tag yang sudah ditambahkan sebelumnya.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/60-tag-produk-sederhana.png" alt="">
+					                		<figcaption class="figure-caption text-center">Tag Produk Yang Telah Ditambah</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->
+								<li>Bagian berikutnya, <strong>Kategori produk</strong>, hilangkan tanda di kategori <strong>Uncategorized</strong>, lalu tandai <strong>Stiker Anak</strong> dan <strong>Label Book Cutting</strong>.</li>
+									<div class="figure-holder single-col-max mx-0 py-0">
+					            		<figure class="figure mb-5">
+					                		<img class="img-fluid p-0 p-lg-0" src="assets/images/features/61-kategori-stiker-anak-label-book-cutting.png" alt="">
+					                		<figcaption class="figure-caption text-center">Kategori Stiker Anak dan Label Book Cutting</figcaption>
+					            		</figure>
+				            		</div><!--//figure-holder-->									
+								<li>Setelah semua selesai, klik tombol <strong>Terbitkan</strong>. Hasilnya bisa diakses di: <a href="https://cutelabelku.com/product/label-book-cutting-tema-cinnamoroll/">Label Book Cutting – Tema Cinnamoroll</a></li>
+									
+				            </ol> 
+				            
+			           
+			            <section class="related-articles-section theme-section rounded-4 shadow px-4 p-lg-5">
+				            <h2 class="section-title mb-5">Artikel Terkait</h2>
+				            <div class="related-items row">
+								<div class="item d-flex col-12 col-lg-6">
+									<div class="help-article-icon-holder flex-shrink-0"></div>
+									<div class="item-content ">
+										<h3 class="item-title"><a href="menambah-produk-baru-variasi.html">Menambah Produk Baru Dengan Variasi</a></h3>
+										<div class="item-excerpt">Cara menambah produk yang memiliki variasi...</div>
+									</div><!--//item-content-->
+								</div><!--//item-->
+								<div class="item d-flex col-12 col-lg-6">
+									<div class="help-article-icon-holder flex-shrink-0"></div>
+									<div class="item-content ">
+										<h3 class="item-title"><a href="edit-dan-hapus-produk.html">Mengedit/Menghapus Produk</a></h3>
+										<div class="item-excerpt">Cara mengedit produk atau menghapus produk yang ada...</div>
+									</div><!--//item-content-->
+								</div><!--//item-->
+								<div class="item d-flex col-12 col-lg-6">
+									<div class="help-article-icon-holder flex-shrink-0"></div>
+									<div class="item-content ">
+										<h3 class="item-title"><a href="kelola-variasi-produk.html">Kelola Variasi Produk</a></h3>
+										<div class="item-excerpt">Cara manambah atau menghapus variasi produk...</div>
+									</div><!--//item-content-->
+								</div><!--//item-->
+								
+				            </div><!--//related-items-->
+						</section><!--//related-articles-->
+			           
+		            </section><!--//main-section-->
+	            </div><!--//col-->
+	            
+	            <div class="col-lg-4 col-xl-3 order-lg-first mt-5 mt-lg-0">
+		           <div class="side-bar pt-5 pt-lg-0 sticky">
+			            <h3 class="side-bar-heading mb-4">Topik</h3>
+			            <nav class="side-bar-nav">
+				            <ul class="sidebar-nav-items list-unstyled flex-column">
+					           <li class="nav-item"><a href="pengantar.html">Pengantar</a></li>
+					           <li class="nav-item"><a href="login-dashboard-alt.html">Login & Dashboard</a></li>
+					           <li class="nav-item"><a href="manajemen-produk-alt.html">Manajemen Produk</a></li>
+					           <li class="nav-item"><a href="manajemen-pesanan-alt.html">Manajemen Pesanan</a></li>
+					           <li class="nav-item"><a href="manajemen-pelanggan-alt.html">Manajemen Pelanggan</a></li>
+					           <li class="nav-item"><a href="manajemen-kupon-alt.html">Manajemen Kupon</a></li>
+					           <li class="nav-item"><a href="laporan-analisis-alt.html">Laporan & Analisis</a></li>
+					           <li class="nav-item"><a href="pengaturan-dasar-alt.html">Pengaturan Dasar Toko</a></li>
+				            </ul><!--//sidebar-nav-items-->
+			            </nav><!--//side-bar-nav-->
+		            </div><!--//side-bar-->
+	            </div><!--//col-->
+			</div><!--//row-->
+
+		</div><!--//container-->
+	</div><!--//help-content-wrapper-->
+
+	<footer class="footer py-3">
+		<div class="container text-center">
+		<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+		<small class="copyright">Designed with <span class="sr-only">love</span><i class="bi bi-heart-fill" style="color:#DE5547"></i> by <a class="theme-link" href="https://wa.link/w5d7xq" target="_blank">Arie Prabowo</a> for developers</small>
+
+		</div><!--//container-->	
+	</footer><!--//footer-->
+	
+	<!-- Javascript -->          
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                                
+    <script src="assets/js/sticky-custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="assets/js/highlightjs-custom.js"></script>
+    
+    
+
+</body>
+</html> 
